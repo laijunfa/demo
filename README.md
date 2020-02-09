@@ -6,9 +6,13 @@
 
 ​	(**推荐大家使用 github注册的邮箱和用户名来登录**)
 
-​	1.配置提交人姓名: git config --global user.name "用户名"
+```text
+  1.配置提交人姓名: git config --global user.name "用户名"text
+```
 
-​	2.配置提交人邮箱: git config --global user.emial "邮箱"
+```text
+  2.配置提交人邮箱: git config --global user.emial "邮箱"		
+```
 
 ​	**查看设置的邮箱和用户名**
 
@@ -30,13 +34,19 @@
 
 **3.恢复记录(回滚)**
 
- 	1.git reset --hard 版本号 
+```text
+$ git reset --hard 版本号 
+```
 
-​	2.git log --oneline   (查看历史版本)
+```text
+$ git log --oneline   (查看历史版本)
+```
 
-​	3.git reflog (查看所有的日志,包括回滚的日志)
+```text
+$ git reflog (查看所有的日志,包括回滚的日志)
+```
 
-
+**(2)（最好操作一下）注意在每次提交之前要首先进行pull，这是防止冲突**
 
 **二.将本地项目与GitHub进行关联**
 
@@ -77,3 +87,4 @@ $ git push -f origin master
 ```text
 $ git push -u origin master
 ```
+
