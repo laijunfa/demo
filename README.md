@@ -7,7 +7,7 @@
 ​	(**推荐大家使用 github注册的邮箱和用户名来登录**)
 
 ```text
-  1.配置提交人姓名: git config --global user.name "用户名"text
+  1.配置提交人姓名: git config --global user.name "用户名"
 ```
 
 ```text
