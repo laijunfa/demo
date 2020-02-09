@@ -48,9 +48,9 @@ $ git reflog (查看所有的日志,包括回滚的日志)
 
 **(2)（最好操作一下）注意在每次提交之前要首先进行pull，这是防止冲突**
 
-**二 . 将本地项目与GitHub进行关联**
+**4. 将本地项目与GitHub进行关联**
 
-**(1)这一步是本地和远程服务器建立联系的一步，后面链接为github远程仓库**
+**(1) 这一步是本地和远程服务器建立联系的一步，后面链接为github远程仓库**
 
 ```text
 $ git remote add origin https://github.com/xxx/xxx.git
@@ -88,3 +88,38 @@ $ git push -f origin master
 $ git push -u origin master
 ```
 
+
+
+
+
+#### **二. Git进阶 (分支)**
+
+##### 2.1.1分支明细
+
+   1.主分支(master) :第一次向git仓库中提交更新记录时自动产生的一个分支
+
+   2.开发分支(develop) :作为开发的分支,基于master分支的创建
+
+   3.功能分支(feature) :作为开发具体功能的分支,基于开发分支的创建
+
+##### 2.1.2 分支命令
+
+- 新建分支 : git branch 分支名
+- 切换分支 : git checkout 分支名
+- 合并分支 : git merge 分支名  (注意一定要回到主分支后合并)
+- 删除分支 : git branch -d 分支名  (分支被合并后才允许删除  -D强制删除)
+- 查看分支 : git branch
+
+```text
+
+```
+
+```text
+$ git push -u origin master
+```
+
+​	
+
+​	
+
+​	
